@@ -1,0 +1,606 @@
+{
+  "_GEARBOX_TABLE:GearboxConfigDone": {
+    "type": "hash",
+    "value": {
+      "success": "1"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4788754
+  },
+  "LLDP_ENTRY_TABLE:Ethernet4": {
+    "type": "hash",
+    "value": {
+      "lldp_rem_port_id_subtype": "5",
+      "lldp_rem_port_id": "Ethernet1",
+      "lldp_rem_port_desc": "",
+      "lldp_rem_chassis_id_subtype": "4",
+      "lldp_rem_chassis_id": "26:9f:cf:e1:1f:92",
+      "lldp_rem_sys_name": "ARISTA02T0",
+      "lldp_rem_sys_desc": "",
+      "lldp_rem_man_addr": "172.16.142.75",
+      "lldp_rem_time_mark": "552005",
+      "lldp_rem_index": "4",
+      "lldp_rem_sys_cap_supported": "28 00",
+      "lldp_rem_sys_cap_enabled": "28 00"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4789531
+  },
+  "NEIGH_TABLE:Ethernet0:10.0.1.2": {
+    "type": "hash",
+    "value": {
+      "neigh": "de:df:f6:05:40:e3",
+      "family": "IPv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4789913
+  },
+  "ROUTE_TABLE:fc00::40/126": {
+    "type": "hash",
+    "value": {
+      "nexthop": "::",
+      "ifname": "Ethernet0"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4790223
+  },
+  "COPP_TABLE:queue4_group3": {
+    "type": "hash",
+    "value": {
+      "queue": "4",
+      "trap_action": "trap",
+      "trap_priority": "4",
+      "trap_ids": "lldp,udld"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.479055
+  },
+  "INTF_TABLE:Ethernet4:10.0.2.1/24": {
+    "type": "hash",
+    "value": {
+      "scope": "global",
+      "family": "IPv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.479085
+  },
+  "INTF_TABLE:Loopback0:10.1.0.32/32": {
+    "type": "hash",
+    "value": {
+      "scope": "global",
+      "family": "IPv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4791143
+  },
+  "NEIGH_TABLE:eth0:10.64.247.31": {
+    "type": "hash",
+    "value": {
+      "neigh": "80:3f:5d:08:08:d7",
+      "family": "IPv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4791436
+  },
+  "ROUTE_TABLE:10.1.0.32": {
+    "type": "hash",
+    "value": {
+      "nexthop": "0.0.0.0",
+      "ifname": "Loopback0"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.479173
+  },
+  "DASH_ROUTE_TABLE:F4939FEFC47E:20.2.2.0/24": {
+    "type": "hash",
+    "value": {
+      "action_type": "vnet",
+      "vnet": "Vnet2"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.479202
+  },
+  "DASH_ACL_RULE_TABLE:group1:rule2": {
+    "type": "hash",
+    "value": {
+      "action": "allow",
+      "dst_addr": "0.0.0.0/0",
+      "dst_port": "0-0",
+      "priority": "0",
+      "protocol": "17",
+      "src_addr": "0.0.0.0/0",
+      "src_port": "0-0",
+      "terminating": "true"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4792373
+  },
+  "NEIGH_TABLE:eth0:10.64.246.111": {
+    "type": "hash",
+    "value": {
+      "neigh": "a2:42:95:e3:aa:87",
+      "family": "IPv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4792676
+  },
+  "PORT_TABLE:PortInitDone": {
+    "type": "hash",
+    "value": {
+      "lanes": "0"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4792957
+  },
+  "DASH_ENI_TABLE:F4939FEFC47E": {
+    "type": "hash",
+    "value": {
+      "admin_state": "enabled",
+      "eni_id": "497f23d7-f0ac-4c99-a98f-59b470e8c7bd",
+      "mac_address": "F4:93:9F:EF:C4:7E",
+      "qos": "qos100",
+      "underlay_ip": "10.0.1.2",
+      "vnet": "Vnet1"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4793303
+  },
+  "NEIGH_TABLE:eth0:10.64.246.1": {
+    "type": "hash",
+    "value": {
+      "neigh": "00:e0:ec:83:b8:0f",
+      "family": "IPv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4793603
+  },
+  "DASH_ACL_OUT_TABLE:F4939FEFC47E:1": {
+    "type": "hash",
+    "value": {
+      "acl_group_id": "group1"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4793885
+  },
+  "LLDP_LOC_CHASSIS": {
+    "type": "hash",
+    "value": {
+      "lldp_loc_sys_name": "str2-02",
+      "lldp_loc_sys_cap_enabled": "28 00",
+      "lldp_loc_chassis_id_subtype": "4",
+      "lldp_loc_chassis_id": "b8:3f:d2:0b:98:10",
+      "lldp_loc_man_addr": "10.64.247.34",
+      "lldp_loc_sys_desc": "SONiC Software Version: SONiC.212452-d446cbec0 - HwSku: XXXXXXXX - Distribution: Debian 11.6 - Kernel: 5.10.0-18-2-arm64",
+      "lldp_loc_sys_cap_supported": "28 00"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4794285
+  },
+  "INTF_TABLE:Ethernet4": {
+    "type": "hash",
+    "value": {
+      "NULL": "NULL",
+      "mac_addr": "00:00:00:00:00:00"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4794593
+  },
+  "ROUTE_TABLE:2064:100::12": {
+    "type": "hash",
+    "value": {
+      "nexthop": "fc00::46",
+      "ifname": "Ethernet4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4794886
+  },
+  "INTF_TABLE:Ethernet0:10.0.1.1/24": {
+    "type": "hash",
+    "value": {
+      "scope": "global",
+      "family": "IPv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4795175
+  },
+  "INTF_TABLE:Loopback0": {
+    "type": "hash",
+    "value": {
+      "NULL": "NULL",
+      "mac_addr": "00:00:00:00:00:00"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4795463
+  },
+  "INTF_TABLE:Ethernet0": {
+    "type": "hash",
+    "value": {
+      "NULL": "NULL",
+      "mac_addr": "00:00:00:00:00:00"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4795752
+  },
+  "ROUTE_TABLE:fc00::44/126": {
+    "type": "hash",
+    "value": {
+      "nexthop": "::",
+      "ifname": "Ethernet4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4796038
+  },
+  "ROUTE_TABLE:100.1.0.18": {
+    "type": "hash",
+    "value": {
+      "nexthop": "10.0.2.2",
+      "ifname": "Ethernet4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4796324
+  },
+  "DASH_VNET_TABLE:Vnet1": {
+    "type": "hash",
+    "value": {
+      "guid": "559c6ce8-26ab-4193-b946-ccc6e8f930b2",
+      "vni": "1000"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.479662
+  },
+  "NEIGH_TABLE:Ethernet4:10.0.2.2": {
+    "type": "hash",
+    "value": {
+      "neigh": "82:7e:c4:59:6e:6c",
+      "family": "IPv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4796908
+  },
+  "DASH_ACL_GROUP_TABLE:group1": {
+    "type": "hash",
+    "value": {
+      "guid": "dash-group-1",
+      "ip_version": "ipv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4797196
+  },
+  "DASH_VNET_MAPPING_TABLE:Vnet2:20.2.2.2": {
+    "type": "hash",
+    "value": {
+      "mac_address": "F9:22:83:99:22:A2",
+      "routing_type": "vnet_encap",
+      "underlay_ip": "10.0.2.2",
+      "use_dst_vni": "true"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4797506
+  },
+  "PORT_TABLE:Ethernet0": {
+    "type": "hash",
+    "value": {
+      "admin_status": "up",
+      "alias": "etp1",
+      "description": "ARISTA01T0:Ethernet1",
+      "fec": "rs",
+      "index": "1",
+      "lanes": "0,1,2,3",
+      "mtu": "9100",
+      "pfc_asym": "off",
+      "speed": "100000",
+      "tpid": "0x8100",
+      "oper_status": "up"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4797895
+  },
+  "INTF_TABLE:Loopback0:FC00:1::32/128": {
+    "type": "hash",
+    "value": {
+      "scope": "global",
+      "family": "IPv6"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4798198
+  },
+  "DASH_QOS_TABLE:qos100": {
+    "type": "hash",
+    "value": {
+      "bw": "10000",
+      "cps": "1000",
+      "flows": "10",
+      "qos_id": "100"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4798505
+  },
+  "PORT_TABLE:PortConfigDone": {
+    "type": "hash",
+    "value": {
+      "count": "2"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.479879
+  },
+  "INTF_TABLE:Ethernet4:FC00::45/126": {
+    "type": "hash",
+    "value": {
+      "scope": "global",
+      "family": "IPv6"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.479908
+  },
+  "NEIGH_TABLE:eth0:10.64.247.30": {
+    "type": "hash",
+    "value": {
+      "neigh": "80:3f:5d:08:15:58",
+      "family": "IPv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.479937
+  },
+  "COPP_TABLE:queue4_group2": {
+    "type": "hash",
+    "value": {
+      "cbs": "600",
+      "cir": "600",
+      "meter_type": "packets",
+      "mode": "sr_tcm",
+      "queue": "4",
+      "red_action": "drop",
+      "trap_action": "copy",
+      "trap_priority": "4",
+      "trap_ids": "arp_req,arp_resp,neigh_discovery"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4799728
+  },
+  "ROUTE_TABLE:10.0.1.0/24": {
+    "type": "hash",
+    "value": {
+      "nexthop": "0.0.0.0",
+      "ifname": "Ethernet0"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4800026
+  },
+  "COPP_TABLE:queue4_group1": {
+    "type": "hash",
+    "value": {
+      "queue": "4",
+      "trap_action": "trap",
+      "trap_priority": "4",
+      "trap_ids": "bgp,bgpv6,lacp"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4800339
+  },
+  "LLDP_ENTRY_TABLE:Ethernet0": {
+    "type": "hash",
+    "value": {
+      "lldp_rem_port_id_subtype": "5",
+      "lldp_rem_port_id": "Ethernet1",
+      "lldp_rem_port_desc": "",
+      "lldp_rem_chassis_id_subtype": "4",
+      "lldp_rem_chassis_id": "42:2e:13:6c:05:db",
+      "lldp_rem_sys_name": "ARISTA01T0",
+      "lldp_rem_sys_desc": "",
+      "lldp_rem_man_addr": "172.16.142.74",
+      "lldp_rem_time_mark": "552005",
+      "lldp_rem_index": "5",
+      "lldp_rem_sys_cap_supported": "28 00",
+      "lldp_rem_sys_cap_enabled": "28 00"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4800744
+  },
+  "GEARBOX_TABLE_KEY_SET": {
+    "type": "set",
+    "value": [
+      "GearboxConfigDone"
+    ],
+    "ttl": -0.001,
+    "expireat": 1676643861.4801111
+  },
+  "PORT_TABLE:Ethernet4": {
+    "type": "hash",
+    "value": {
+      "admin_status": "up",
+      "alias": "etp2",
+      "description": "ARISTA02T0:Ethernet1",
+      "fec": "rs",
+      "index": "2",
+      "lanes": "4,5,6,7",
+      "mtu": "9100",
+      "pfc_asym": "off",
+      "speed": "100000",
+      "tpid": "0x8100",
+      "oper_status": "up"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.48015
+  },
+  "COPP_TABLE:queue1_group1": {
+    "type": "hash",
+    "value": {
+      "cbs": "6000",
+      "cir": "6000",
+      "meter_type": "packets",
+      "mode": "sr_tcm",
+      "queue": "1",
+      "red_action": "drop",
+      "trap_action": "trap",
+      "trap_priority": "1",
+      "trap_ids": "ip2me"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.480187
+  },
+  "DASH_ACL_IN_TABLE:F4939FEFC47E:1": {
+    "type": "hash",
+    "value": {
+      "acl_group_id": "group1"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4802158
+  },
+  "NEIGH_TABLE:Ethernet4:fc00::46": {
+    "type": "hash",
+    "value": {
+      "neigh": "82:7e:c4:59:6e:6c",
+      "family": "IPv6"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.480245
+  },
+  "ROUTE_TABLE:fc00:1::/64": {
+    "type": "hash",
+    "value": {
+      "nexthop": "::",
+      "ifname": "Loopback0"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4802737
+  },
+  "DASH_VNET_TABLE:Vnet2": {
+    "type": "hash",
+    "value": {
+      "guid": "659c6ce8-26ab-4193-b946-ccc6e8f930b2",
+      "vni": "2000"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4803023
+  },
+  "ROUTE_TABLE:fc00:1::32": {
+    "type": "hash",
+    "value": {
+      "nexthop": "::",
+      "ifname": "Loopback0"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4803312
+  },
+  "DASH_APPLIANCE_TABLE:123": {
+    "type": "hash",
+    "value": {
+      "sip": "10.1.0.32",
+      "vm_vni": "4321"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4808176
+  },
+  "DASH_ROUTE_RULE_TABLE:F4939FEFC47E:2000:10.0.2.0/24": {
+    "type": "hash",
+    "value": {
+      "action_type": "decap",
+      "pa_validation": "true",
+      "priority": "1",
+      "vnet": "Vnet2"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4808545
+  },
+  "ROUTE_TABLE:100.1.0.17": {
+    "type": "hash",
+    "value": {
+      "nexthop": "10.0.1.2",
+      "ifname": "Ethernet0"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4808855
+  },
+  "NEIGH_TABLE:Ethernet0:fc00::42": {
+    "type": "hash",
+    "value": {
+      "neigh": "de:df:f6:05:40:e3",
+      "family": "IPv6"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4809158
+  },
+  "ROUTE_TABLE:10.0.2.0/24": {
+    "type": "hash",
+    "value": {
+      "nexthop": "0.0.0.0",
+      "ifname": "Ethernet4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4809449
+  },
+  "LLDP_ENTRY_TABLE:eth0": {
+    "type": "hash",
+    "value": {
+      "lldp_rem_port_desc": "ge-0/0/35.0",
+      "lldp_rem_sys_desc": "Juniper Networks, Inc. ex2200-48t-4g , version 12.3R6.6 Build date: 2014-03-13 07:02:54 UTC ",
+      "lldp_rem_time_mark": "552051",
+      "lldp_rem_chassis_id": "dc:38:e1:97:66:c0",
+      "lldp_rem_index": "3",
+      "lldp_rem_chassis_id_subtype": "4",
+      "lldp_rem_port_id_subtype": "5",
+      "lldp_rem_sys_cap_enabled": "28 00",
+      "lldp_rem_sys_cap_supported": "28 00",
+      "lldp_rem_man_addr": "",
+      "lldp_rem_port_id": "ge-0/0/35",
+      "lldp_rem_sys_name": "2200-ACS-2"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4809895
+  },
+  "ROUTE_TABLE:2064:100::11": {
+    "type": "hash",
+    "value": {
+      "nexthop": "fc00::42",
+      "ifname": "Ethernet0"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.481022
+  },
+  "DASH_ACL_RULE_TABLE:group1:rule1": {
+    "type": "hash",
+    "value": {
+      "action": "allow",
+      "dst_addr": "0.0.0.0/0",
+      "dst_port": "0-0",
+      "priority": "0",
+      "src_addr": "0.0.0.0/0",
+      "src_port": "0-0",
+      "terminating": "true",
+      "protocol": "6"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4810586
+  },
+  "NEIGH_TABLE:eth0:10.64.246.95": {
+    "type": "hash",
+    "value": {
+      "neigh": "46:b4:f1:cd:95:43",
+      "family": "IPv4"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4810882
+  },
+  "INTF_TABLE:Ethernet0:FC00::41/126": {
+    "type": "hash",
+    "value": {
+      "scope": "global",
+      "family": "IPv6"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4811177
+  },
+  "COPP_TABLE:default": {
+    "type": "hash",
+    "value": {
+      "cbs": "600",
+      "cir": "600",
+      "meter_type": "packets",
+      "mode": "sr_tcm",
+      "queue": "0",
+      "red_action": "drop"
+    },
+    "ttl": -0.001,
+    "expireat": 1676643861.4811504
+  }
+}
