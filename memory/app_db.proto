@@ -1,0 +1,81 @@
+syntax = "proto3";
+
+message IpAddress {
+  oneof ip {
+    fixed32 ipv4 = 1;
+    bytes ipv6 = 2;
+  }
+}
+
+message IpPrefix {
+  IpAddress ip = 1;
+  uint32 prefix_len = 2;
+}
+
+message Vnet {
+  string vni = 1;
+  string guid = 2;
+  repeated IpPrefix address_space = 3;
+  repeated string peer_list = 4;
+}
+
+message VnetMapping {
+  string routing_type = 1;
+  IpAddress underlay_ip = 2;
+  bytes mac_address = 3;
+  fixed64 metering_bucket = 4;
+  bool use_dst_vni = 5;
+  bool use_pl_sip_eni = 6;
+  IpAddress overlay_sip = 7;
+  IpAddress overlay_dip = 8;
+}
+
+message PrefixTag {
+  repeated IpPrefix prefix_list = 1;
+}
+
+message Eni {
+  bytes eni_id = 1;
+  bytes mac_address = 2;
+  string qos = 3;
+  IpAddress underlay_ip = 4;
+  string admin_state = 5;
+  string vnet = 6;
+  IpPrefix pl_sip_encoding = 7;
+  IpAddress pl_underlay_sip = 8;
+}
+
+message AclRule {
+  uint32 priority = 1;
+  string action = 2;
+  bool terminating = 3;
+  repeated uint32 protocol = 4;
+  repeated IpPrefix src_addr  = 5;
+  repeated IpPrefix dst_addr  = 6;
+  repeated uint32 src_port = 7;
+  repeated uint32 dst_port = 8;
+  repeated string src_tag = 9;
+  repeated string dst_tag = 10;
+}
+
+message Route {
+  string action_type = 1;
+  string vnet = 2;
+  uint32 appliance = 3;
+  IpAddress overlay_ip = 4;
+  IpAddress overlay_sip = 5;
+  IpAddress overlay_dip = 6;
+  IpAddress underlay_sip = 7;
+  IpAddress underlay_dip = 8;
+  fixed64 metering_bucket = 9;
+}
+
+message RouteRule {
+  string action_type = 1;
+  uint32 priority = 2;
+  uint32 protocol = 3;
+  string vnet = 4;
+  bool pa_validation = 5;
+  fixed64 metering_bucket = 6;
+  uint32 region = 7;
+}
