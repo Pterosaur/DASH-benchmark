@@ -230,7 +230,7 @@ def to_binary(v):
 def insert_entry(rp, table, key, values):
     useful_size = 0
     if PROTOBUF_VALUE:
-        field_name = "0"
+        field_name = "pb"
         field_value = values_to_pb(table, values)
     for k, v in values.items():
         if isinstance(v, list):
