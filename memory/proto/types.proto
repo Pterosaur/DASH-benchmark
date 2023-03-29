@@ -4,14 +4,14 @@ package dash.types;
 
 message IpAddress {
   oneof ip {
-    fixed32 ipv4 = 1;
-    bytes ipv6 = 2;
+    fixed32 ipv4 = 1; // Network byte order (big-endian)
+    bytes ipv6 = 2; // Network byte order (big-endian)
   }
 }
 
 message IpPrefix {
   IpAddress ip = 1;
-  uint32 prefix_len = 2;
+  IpAddress mask = 2;
 }
 
 message Range {
