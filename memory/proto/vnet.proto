@@ -5,7 +5,7 @@ package dash.vnet;
 import "types.proto";
 
 message Vnet {
-    string vni = 1;
+    uint32 vni = 1;
     string guid = 2;
     repeated types.IpPrefix address_space = 3;
     repeated string peer_list = 4;
