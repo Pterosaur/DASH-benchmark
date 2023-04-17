@@ -27,12 +27,13 @@ enum RoutingType {
     ROUTING_TYPE_PRIVATELINK = 5;
     ROUTING_TYPE_PRIVATELINKNSG = 6;
     ROUTING_TYPE_SERVICETUNNEL = 7;
+    ROUTING_TYPE_DROP = 8;
 }
 
 message RouteType {
     string action_name = 1;
     route_type.ActionType action_type = 2;
     optional route_type.EncapType encap_type = 3;
-    optional string vni = 4;
+    optional uint32 vni = 4;
 }
 

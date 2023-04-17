@@ -6,5 +6,5 @@ import "types.proto";
 
 message Appliance {
     types.IpAddress sip = 1;
-    string vm_vni = 2;
+    uint32 vm_vni = 2;
 }
