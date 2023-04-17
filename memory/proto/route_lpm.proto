@@ -19,5 +19,5 @@ message Route{
         string appliance = 3;
         route_lpm.ServiceTunnel service_tunnel = 4;
     }
-    optional string metering_bucket = 5;
+    optional uint64 metering_bucket = 5;
 }

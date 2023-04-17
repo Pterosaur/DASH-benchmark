@@ -10,6 +10,6 @@ message RouteRule {
     optional uint32 protocol = 3;
     optional string vnet = 4;
     optional bool pa_validation = 5;
-    optional string metering_bucket = 6;
+    optional uint64 metering_bucket = 6;
     optional string region = 7;
 }
